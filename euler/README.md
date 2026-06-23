@@ -1,0 +1,9 @@
+# plan for gaining problem solving abilities
+
+1. all problems are from the beggining super hard
+
+2. first on paper, understand it, get ideas, check them and only then implement
+
+3. trust your ideas
+
+4. no AI, only light google for the implementation problem

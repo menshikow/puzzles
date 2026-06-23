@@ -1,0 +1,8 @@
+(lang dune 3.12)
+
+(name jane_street_puzzles)
+
+(package
+ (name jane_street_puzzles))
+
+(generate_opam_files true)

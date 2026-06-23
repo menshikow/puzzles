@@ -1,0 +1,3 @@
+(library
+ (name jst_shared)
+ (public_name jane_street_puzzles.shared))
