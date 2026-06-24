@@ -1,6 +1,7 @@
 * Plan for gaining problem solving abilities
 
 1. all problems are from the beggining super hard
-2. first on paper, understand it, get ideas, check them and only then implement
-3. trust your ideas
-4. no AI, only googling
+2. ALL problems are SOLVABLE, you just have to catch the insight
+3. first on paper, understand it, get ideas, check them and only then implement
+4. trust your ideas
+5. no AI, only googling
