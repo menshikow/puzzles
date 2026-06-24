@@ -1,0 +1,41 @@
+        - use euclid's formula, generate pythogorian triplets
+
+        - should not generate numbers such n > 335 (b = 333, a = 332)
+
+        - find such which do 1000 in sum (basic bruteforce)
+
+        - You haven't connected Euclid's formula's parameters (m, n) to the
+    perimeter (a+b+c) directly. There's a clean relationship between m, n and
+    the perimeter for primitive triples that, if derived, lets you skip brute
+    force almost entirely — that's the "aha" this problem is really testing.
+
+        - No mention yet of the constraints on m and n in Euclid's formula
+    (m > n > 0, gcd(m,n) = 1, m and n not both odd). These constraints are
+    what guarantee you generate primitive triples without duplicates or
+    invalid ones — currently your pseudocode doesn't reference them at all.
+
+    * Concepts worth looking into:
+
+    - Euclid's formula derivation — a = m²−n², b = 2mn, c = m²+n², and why this
+    generates all primitive Pythagorean triples.
+
+    - Primitive vs. non-primitive triples — and how every triple is k times a
+    primitive one.
+
+    - Perimeter in terms of m, n — work out a+b+c algebraically using the formula
+    above; this turns the problem into solving for m, n directly instead of
+    searching.
+
+    - GCD / coprimality — why gcd(m,n)=1 matters for primitivity.
+
+    - Parity constraints on m, n — why exactly one of m, n must be even
+    (or equivalently m−n is odd).
+
+    - Bounding m via the perimeter equation — once you have perimeter as a
+    function of m and n, you can bound m without guessing.
+
+    - Complexity comparison — brute force is roughly O(n²), Euclid's formula
+    approach can get you to O(√n) or even O(1) with the right algebra.
+
+    -Worth explicitly comparing these to see why the formula approach wins.
+    """
