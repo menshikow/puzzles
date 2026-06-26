@@ -10,15 +10,13 @@
 #     return seq
 
 
-
-
 # def append_pal(seq: list[int]) -> list[int]:
 #     pal_seq: list[int] = []
 
 #     for num in seq:
 #         if check_palindrome(seq[num]):
 #             pal_seq.append(seq[num])
-            
+
 #     return pal_seq
 
 
@@ -26,7 +24,7 @@
 #     pal_seq = append_pal(ass())
 
 #     print(max(pal_seq))
-    
+
 
 # solution()
 
