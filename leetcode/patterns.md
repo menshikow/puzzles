@@ -6,3 +6,7 @@
 
 ## Sliding Window
 - 3. Longest Substring Without Repeating Characters
+
+## Two Pointers
+- 15. 3Sum
+- 2Sum

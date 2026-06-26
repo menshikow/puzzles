@@ -14,23 +14,22 @@
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         """
-        Time-Complexity = O(n^2) -> 2Sum is O(n), 2Sum on every itemn => n*n = n^2
-        Space-Complexity = ??
+        Time Complexity:  O(n^2)
+        Space Complexity: O(n) auxiliary (from sort), 
+                        O(n^2) if counting the output list in the worst case
         """
         nums.sort() # everytime we sort an array the complexity gets to O(nlogn)
-        n = len(nums)
-        result = []
+        n:int = len(nums)
+        result: list[list[int]]  = []
 
         for i in range(n):
             if i > 0 and nums[i] == nums[i - 1]:
                 continue
-
-            target = -nums[i]
+            target: int = -nums[i]
             left, right = i + 1, n - 1
 
             while left < right:
                 s = nums[left] + nums[right]
-
                 if s == target:
                     result.append([nums[i], nums[left], nums[right]])
                     left += 1
