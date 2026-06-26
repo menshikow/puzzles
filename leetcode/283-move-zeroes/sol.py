@@ -13,13 +13,10 @@ Example 2:
 Input: nums = [0]
 Output: [0]
 
- 
-
 Constraints:
 
-    1 <= nums.length <= 104
+    j<= nums.length <= 104
 """
-
 
 class Solution:
      def moveZeroes(self, nums: list[int]) -> None:

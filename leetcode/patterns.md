@@ -8,5 +8,5 @@
 - 3. Longest Substring Without Repeating Characters
 
 ## Two Pointers
-- 15. 3Sum
-- 2Sum
+- 283. move zeroes
+- 88. merge sorted array
