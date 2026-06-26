@@ -43,6 +43,7 @@ class Solution:
                     result[i] = nums[right] * nums[right]
                     right -= 1
                else:
+                    # bucket-sort O(nlogn) vs 2-pointer approach is O(n)
                     result[i] = nums[left] * nums[left]
                     left += 1
           
