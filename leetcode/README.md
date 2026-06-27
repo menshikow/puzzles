@@ -1,6 +1,6 @@
-# Algorithm Patterns
+# Patterns
 
-## Array Manipulation
+## Array 
 - 66. Plus One
 - 283. Move Zeroes
 
@@ -10,3 +10,6 @@
 ## Two Pointers
 - 283. move zeroes
 - 88. merge sorted array
+
+## Sorting
+- [88 Merge Sorted Array](88-merge-sorted-array)
