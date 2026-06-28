@@ -1,7 +1,4 @@
-# Problem 11 on Project Euler
-# What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally)
-
-data = """
+grid = """
 08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08
 49 49 99 40 17 81 18 57 60 87 17 40 98 43 69 48 04 56 62 00
 81 49 31 73 55 79 14 29 93 71 40 67 53 88 30 03 49 13 36 65
@@ -24,46 +21,53 @@ data = """
 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48
 """
 
-grid: list[list[int]] = [
-    [int(x) for x in line.split()] for line in data.strip().split("\n")
-]
 
-horizontal: list[int] = []
-vertical: list[int] = [1, 2]
-diagonal: list[int] = [2, 3]
-
-
-def find_horizontal(grid: list[list[int]]) -> list[int]:
-    results: list[int] = []
-
-    for row in grid:
-        begin: int = 0
-        result: int = 0
-        window_state: int = 0
-
-        # sliding window
-        for end in range(len(row)):
-            window_state += row[end]
-            if end - begin + 1 == 4:
-                result = max(result, window_state)
-                window_state -= row[begin]
-                begin += 1
-        results.append(result)
-
-    return results
+def word_to_int(word: str) -> int:
+    if word[0] == "0":
+        return int(word[1:])
+    else:
+        return int(word)
 
 
-# sliding method but for columns
-def find_vertical(grid: list[list[int]]) -> list[int]:
+def solution() -> int:
+    lines = grid.strip().split("\n")
+    cells= [[word_to_int(word) for word in line.split()] for line in lines]
+
+    maximum = 0
+
+    # Horizontal in row.
+    for row_i in range(20):
+        for col_i in range(16):
+            product = 1
+            for i in range(4):
+                product *= cells[row_i][col_i + i]
+            maximum = max(maximum, product)
+
+    # Vertical in column.
+    for row_i in range(16):
+        for col_i in range(20):
+            product = 1
+            for i in range(4):
+                product *= cells[row_i + i][col_i]
+            maximum = max(maximum, product)
+
+    # Diagonal.
+    for row_i in range(16):
+        for col_i in range(16):
+            product = 1
+            for i in range(4):
+                product *= cells[row_i + i][col_i + i]
+            maximum = max(maximum, product)
+
+    # Other diagonal.
+    for row_i in range(4, 20):
+        for col_i in range(16):
+            product = 1
+            for i in range(4):
+                product *= cells[row_i - i][col_i + i]
+            maximum = max(maximum, product)
+
+    return maximum
 
 
-def find_diagonal(grid: list[list[int]]) -> list[int]:
-    pass
-
-
-def solution(horizontal: list[int], vertical: list[int], diagonal: list[int]):
-    horizontal_sol: int = max(find_horizontal(grid))
-    vertical_sol: int = max(vertical)
-    diagonal_sol: int = max(diagonal)
-
-    print(max(horizontal_sol, vertical_sol, diagonal_sol))
+print(solution())
