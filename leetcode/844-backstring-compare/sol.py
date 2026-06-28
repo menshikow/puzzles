@@ -1,2 +1,5 @@
-class Solution:
-    def backspaceCompare(self, s: str, t: str) -> bool:
+# class Solution:
+def backspaceCompare(s: str, t: str) -> bool:
+     s2: str = ""
+     t2: str = ""
+     
