@@ -10,17 +10,16 @@
 # Notice that the order of the output and the order of the triplets does not matter.
 
 
-
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         """
         Time Complexity:  O(n^2)
-        Space Complexity: O(n) auxiliary (from sort), 
+        Space Complexity: O(n) auxiliary (from sort),
                         O(n^2) if counting the output list in the worst case
         """
-        nums.sort() # everytime we sort an array the complexity gets to O(nlogn)
-        n:int = len(nums)
-        result: list[list[int]]  = []
+        nums.sort()  # everytime we sort an array the complexity gets to O(nlogn)
+        n: int = len(nums)
+        result: list[list[int]] = []
 
         for i in range(n):
             if i > 0 and nums[i] == nums[i - 1]:
@@ -46,3 +45,4 @@ class Solution:
                     right -= 1
 
         return result
+

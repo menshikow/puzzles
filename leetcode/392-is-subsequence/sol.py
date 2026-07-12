@@ -23,21 +23,25 @@ Constraints:
     s and t consist only of lowercase English letters.
 
 
-Follow up: Suppose there are lots of incoming s, say s1, s2, ..., 
+Follow up: Suppose there are lots of incoming s, say s1, s2, ...,
 sk where k >= 109, and you want to check one by one to see if t has its subsequence. In this scenario, how would you change your code?
 """
 
+
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
+        # an empty string is a substring of any string
         if not s:
             return True
 
-        s_pointer: int = 0
-        t_pointer: int = 0
+        ptrs: int = 0
 
-        for t_pointer in range(len(t)):
-            if t[t_pointer] == s[s_pointer]:
-                s_pointer += 1
-                if s_pointer >= len(s):
+        for i in range(len(t)):
+            if t[i] == s[ptrs]:
+                ptrs += 1
+                if ptrs == len(
+                    s
+                ):  # not - 1, cause the index is more "character counter"
                     return True
+
         return False
