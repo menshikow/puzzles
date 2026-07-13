@@ -5,4 +5,5 @@
 
 * Problems:
 
-** Striver’s CP Sheet - Ace Interviews :: https://takeuforward.org/competitive-programming/strivers-cp-sheet 
+** Striver’s CP Sheet :: https://takeuforward.org/competitive-programming/strivers-cp-sheet 
+** CSES Problem Set :: https://cses.fi/problemset
