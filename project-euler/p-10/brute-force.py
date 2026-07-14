@@ -15,6 +15,7 @@ def check_prime(n: int) -> bool:
 
     return bool(len(divisors) == 0)
 
+
 def solve(m: int) -> list[int]:
     """
     solving the problem
