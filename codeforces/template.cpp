@@ -1,16 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve() {
-  // your solution for a single test case goes here
-}
+void solve() {}
 
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
 
   int t;
-  cin >> t; // remove this + the loop if the problem has no multiple test cases
+  cin >> t;
   while (t--) {
     solve();
   }
