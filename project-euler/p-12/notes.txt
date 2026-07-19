@@ -1,0 +1,2 @@
+- the problem: https://projecteuler.net/problem=12
+- overview: https://projecteuler.net/overview=0012

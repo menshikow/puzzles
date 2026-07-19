@@ -30,7 +30,7 @@
 - Binary Search ::  https://en.wikipedia.org/wiki/Binary_search
 - Binary Search on Answer ::  https://cp-algorithms.com/num_methods/binary_search.html
 - Ternary Search ::  https://cp-algorithms.com/num_methods/ternary_search.html
-- Two Pointers
+- Two Pointers ::
 - Sliding Window ::
 - Meet in the Middle ::  https://en.wikipedia.org/wiki/Meet-in-the-middle_attack (same concept, framed for cryptography)
 - Prefix Sums ::  https://en.wikipedia.org/wiki/Prefix_sum
@@ -48,7 +48,7 @@
 - Bit Manipulation ::  https://cp-algorithms.com/algebra/bit-manipulation.html
 - Bitmasking ::  https://cp-algorithms.com/algebra/all-submasks.html
 - Brute Force / Complete Search ::  https://en.wikipedia.org/wiki/Brute-force_search
-- Simulation :: 
+- Simulation ::
 
 ## Module 5 Elementary Math
 - Euclidean Algorithm (GCD/LCM) ::  https://cp-algorithms.com/algebra/euclid-algorithm.html
