@@ -9,7 +9,7 @@ using namespace std;
 class Solution {
 public:
   int minSubArrayLen(int target, vector<int> &nums) {
-    int n = nums.size();
+    int nsize();
     int left = 0;
     int sum = 0;
     int minLen = INT_MAX;
