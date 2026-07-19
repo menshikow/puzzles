@@ -30,12 +30,12 @@
 - Binary Search ::  https://en.wikipedia.org/wiki/Binary_search
 - Binary Search on Answer ::  https://cp-algorithms.com/num_methods/binary_search.html
 - Ternary Search ::  https://cp-algorithms.com/num_methods/ternary_search.html
-- Two Pointers ::===
-- Sliding Window ::===
+- Two Pointers
+- Sliding Window ::
 - Meet in the Middle ::  https://en.wikipedia.org/wiki/Meet-in-the-middle_attack (same concept, framed for cryptography)
 - Prefix Sums ::  https://en.wikipedia.org/wiki/Prefix_sum
-- Difference Arrays ::===
-- 2D Prefix Sums ::===
+- Difference Arrays ::
+- 2D Prefix Sums ::
 - Kadane's Algorithm ::  https://en.wikipedia.org/wiki/Maximum_subarray_problem
 - Boyer-Moore Voting Algorithm ::  https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm
 - Floyd's Cycle Detection ::  https://cp-algorithms.com/others/tortoise_and_hare.html
@@ -48,7 +48,7 @@
 - Bit Manipulation ::  https://cp-algorithms.com/algebra/bit-manipulation.html
 - Bitmasking ::  https://cp-algorithms.com/algebra/all-submasks.html
 - Brute Force / Complete Search ::  https://en.wikipedia.org/wiki/Brute-force_search
-- Simulation ::===
+- Simulation :: 
 
 ## Module 5 Elementary Math
 - Euclidean Algorithm (GCD/LCM) ::  https://cp-algorithms.com/algebra/euclid-algorithm.html
@@ -73,7 +73,7 @@
 ## Module 7 Graph Basics
 - BFS ::  https://cp-algorithms.com/graph/breadth-first-search.html
 - DFS ::  https://cp-algorithms.com/graph/depth-first-search.html
-- Multi-source BFS ::===
+- Multi-source BFS ::
 - Flood Fill ::  https://en.wikipedia.org/wiki/Flood_fill
 - Dijkstra's Algorithm ::  https://cp-algorithms.com/graph/dijkstra.html
 - Union-Find / DSU ::  https://cp-algorithms.com/data_structures/disjoint_set_union.html
@@ -117,25 +117,25 @@
 - Continued Fractions ::  https://cp-algorithms.com/algebra/continued-fractions.html
 - Stern-Brocot Tree / Farey Sequences ::  https://cp-algorithms.com/others/stern_brocot_tree_farey_sequences.html
 - Gaussian Elimination ::  https://cp-algorithms.com/linear_algebra/linear-system-gauss.html
-- XOR Basis / Linear Basis (GF(2)) ::===
+- XOR Basis / Linear Basis (GF(2)) ::
 - Fast Fourier Transform (FFT) ::  https://cp-algorithms.com/algebra/fft.html
 - Number Theoretic Transform (NTT) ::  https://cp-algorithms.com/algebra/polynomial.html
 - Karatsuba Multiplication ::  https://en.wikipedia.org/wiki/Karatsuba_algorithm
 - Berlekamp-Massey Algorithm ::  https://en.wikipedia.org/wiki/Berlekamp%E2%80%93Massey_algorithm
 
 ## Module 2 Advanced Dynamic Programming
-- Bitmask DP ::===
-- Digit DP ::===
-- Tree DP ::===
-- DP on Intervals ::===
+- Bitmask DP ::
+- Digit DP ::
+- Tree DP ::
+- DP on Intervals ::
 - Rerooting Technique ::  https://cp-algorithms.com/graph/tree_painting.html
-- SOS DP (Sum over Subsets) ::===
+- SOS DP (Sum over Subsets) ::
 - Probability / Expected Value DP ::
 - TSP via Bitmask DP (Held-Karp) ::  https://en.wikipedia.org/wiki/Held%E2%80%93Karp_algorithm
 - Divide and Conquer Optimization ::  https://cp-algorithms.com/dynamic_programming/divide-and-conquer-dp.html
 - Knuth's Optimization ::  https://cp-algorithms.com/dynamic_programming/knuth-optimization.html
 - Convex Hull Trick (CHT) / Li Chao Tree ::  https://cp-algorithms.com/geometry/convex_hull_trick.html
-- Slope Trick ::===
+- Slope Trick ::
 - Broken Profile / Plug DP ::  https://cp-algorithms.com/dynamic_programming/profile-dynamics.html
 
 ## Module 3 Advanced Graph Algorithms
@@ -170,9 +170,9 @@
 - Lowest Common Ancestor (LCA) ::  https://cp-algorithms.com/graph/lca.html (binary lifting variant: https://cp-algorithms.com/graph/lca_binary_lifting.html)
 - Euler Tour ::  https://en.wikipedia.org/wiki/Euler_tour_technique
 - Centroid Decomposition ::  https://cp-algorithms.com/graph/centroid_decomposition.html
-- DSU on Tree (Small-to-Large Merging) ::===
+- DSU on Tree (Small-to-Large Merging) ::
 - Heavy-Light Decomposition ::  https://cp-algorithms.com/graph/hld.html
-- Virtual Tree / Auxiliary Tree ::===
+- Virtual Tree / Auxiliary Tree ::
 - Bridge Tree ::  https://cp-algorithms.com/graph/bridge-searching.html (concept built on bridges)
 - Block-Cut Tree ::  https://en.wikipedia.org/wiki/Biconnected_component
 - A* Search ::  https://en.wikipedia.org/wiki/A*_search_algorithm
@@ -187,17 +187,17 @@
 - Cartesian Tree ::  https://en.wikipedia.org/wiki/Cartesian_tree
 - Lazy Propagation ::  https://cp-algorithms.com/data_structures/segment_tree.html
 - Persistent Segment Tree ::  https://en.wikipedia.org/wiki/Persistent_data_structure (general concept)
-- Segment Tree Beats ::===
-- Merge Sort Tree ::===
-- 2D Fenwick Tree / 2D Segment Tree ::===
+- Segment Tree Beats ::
+- Merge Sort Tree ::
+- 2D Fenwick Tree / 2D Segment Tree ::
 - Sparse Table ::  https://cp-algorithms.com/data_structures/sparse-table.html
-- Disjoint Sparse Table ::===
+- Disjoint Sparse Table ::
 - Sqrt Tree ::  https://cp-algorithms.com/data_structures/sqrt-tree.html
 - Binary Trie (XOR Trie) ::  https://en.wikipedia.org/wiki/Trie (general trie concept, XOR use is an application)
 - Persistent Trie / Persistent DSU ::  https://en.wikipedia.org/wiki/Persistent_data_structure
 - DSU with Rollback ::  https://cp-algorithms.com/data_structures/disjoint_set_union.html (rollback is a variant)
 - Link-Cut Tree ::  https://en.wikipedia.org/wiki/Link/cut_tree
-- Wavelet Tree ::===
+- Wavelet Tree ::
 - Fractional Cascading ::  https://en.wikipedia.org/wiki/Fractional_cascading
 - Interval Tree ::  https://en.wikipedia.org/wiki/Interval_tree
 - K-D Tree ::  https://en.wikipedia.org/wiki/K-d_tree
@@ -217,9 +217,9 @@
 - Suffix Automaton ::  https://cp-algorithms.com/string/suffix-automaton.html
 - Suffix Tree ::  https://cp-algorithms.com/string/suffix-tree-ukkonen.html
 - Aho-Corasick Algorithm ::  https://cp-algorithms.com/string/aho_corasick.html
-- Palindromic Tree (Eertree) ::===
+- Palindromic Tree (Eertree) ::
 - Duval's Algorithm (Lyndon Words) ::  https://cp-algorithms.com/string/lyndon_factorization.html
-- Booth's Algorithm (Minimal Rotation) ::===
+- Booth's Algorithm (Minimal Rotation) ::
 - Burrows-Wheeler Transform ::  https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform
 
 ## Module 6 Computational Geometry
@@ -241,12 +241,12 @@
 - Alpha-Beta Pruning ::  https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning
 
 ## Module 8 Offline & Query Techniques
-- Mo's Algorithm ::===
-- Mo's Algorithm on Trees ::===
-- Parallel Binary Search ::===
-- CDQ Divide and Conquer ::===
+- Mo's Algorithm ::
+- Mo's Algorithm on Trees ::
+- Parallel Binary Search ::
+- CDQ Divide and Conquer ::
 - Square Root Decomposition ::  https://cp-algorithms.com/data_structures/sqrt_decomposition.html
-- Coordinate Compression ::===
+- Coordinate Compression ::
 - Line Sweep ::  https://cp-algorithms.com/geometry/intersecting_segments.html
 
 ## Module 9 Randomization, Optimization & Misc
