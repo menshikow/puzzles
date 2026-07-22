@@ -9,7 +9,14 @@
  Explanation: After deleting the number in position 2, [1,1,1] contains 3 numbers with value of 1's.
 */
 
-int main() {
+// Input: nums = [0,1,1,1,0,1,1,0,1]
+// Output: 5
+// Explanation: After deleting the number in position 4, [0,1,1,1,1,1,0,1] longest subarray with value of 1's is [1,1,1,1,1].
 
+
+int main() {
+  int result = 0;
+  int begin = 0;
+  
   return 0;
 }

@@ -91,6 +91,30 @@ Algorithms are just discrete mathematics in disguise.
 * Action: Teach yourself the fundamentals of Graph Theory (nodes, edges, trees), Combinatorics (counting permutations), and Modular Arithmetic.
 * Resource: Look up the free MIT OpenCourseWare course Mathematics for Computer Science.
 
+## Track 3: Data Science & Machine Learning (The Kaggle Path)
+Kaggle competitions bridge the gap between algorithmic coding and real-world data problems. They teach you how to handle messy datasets, engineer features, and build predictive models — skills essential for both quantitative finance (Jane Street) and scientific computing (CERN).
+
+## 1. Establish a Kaggle Routine
+
+* Action: Create a Kaggle account and start with the beginner-friendly competitions: Titanic, House Prices, Spaceship Titanic.
+* Focus Areas: Start with tabular data (regression, classification) before moving to NLP, computer vision, or time series.
+* The Rule: Always build a baseline model first (simple linear model or random forest). Only then iterate with feature engineering and more complex models.
+
+## 2. Master the ML Pipeline
+
+Understanding the full pipeline is more important than memorizing model architectures.
+
+* Action: For every competition, document your feature engineering decisions, model selection rationale, and validation strategy in a `notes.md` file.
+* Key Skills: Cross-validation, hyperparameter tuning, feature scaling, handling missing data, encoding categorical variables, ensemble methods.
+
+## 3. Bridge to Quantitative Finance & Scientific Computing
+
+Kaggle directly feeds into your other goals:
+
+* Feature engineering — mirrors how Jane Street extracts signals from market data.
+* Cross-validation & overfitting prevention — critical for CERN's physics model validation.
+* Working with large datasets — trains the same skills used in HPC / distributed computing.
+
 ------------------------------
 ## Your Immediate Milestone (Next 3 Months)
 Don't try to do everything at once. For the next quarter, focus entirely on these two tangible targets:
